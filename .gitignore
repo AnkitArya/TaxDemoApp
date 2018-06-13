@@ -237,3 +237,4 @@ _Pvt_Extensions
 .fake/
 TaxApp/wwwroot/Logs
 TaxApp/wwwroot/js
+TaxApp/package-lock.json
