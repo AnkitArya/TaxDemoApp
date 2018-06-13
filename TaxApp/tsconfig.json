@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "skipDefaultLibCheck": true,
+        "strict": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitAny": false
+    },
+    "exclude": [
+        "bin",
+        "node_modules"
+    ]
+}

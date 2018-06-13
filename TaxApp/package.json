@@ -1,0 +1,58 @@
+{
+  "name": "tax-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ankit Arya",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(test)\\.(tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "description": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "notie": "^4.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.10",
+    "@types/jest": "^23.0.0",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.19",
+    "@types/react-router-dom": "^4.2.6",
+    "@types/react-router-redux": "^5.0.13",
+    "@types/redux-mock-store": "0.0.13",
+    "aspnet-prerendering": "^3.0.1",
+    "aspnet-webpack": "^2.0.3",
+    "aspnet-webpack-react": "^3.0.0",
+    "awesome-typescript-loader": "^5.0.0",
+    "enzyme": "^3.3.0",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "react-hot-loader": "^4.1.2",
+    "webpack": "^4.6.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3",
+    "webpack-hot-middleware": "^2.22.1"
+  }
+}
